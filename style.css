@@ -1,0 +1,20 @@
+.jumbotron {
+    background-color: #0d3972;
+    color: white;
+    text-align: center;
+}
+
+.panel-default>.panel-heading {
+    background-color: #0d3972;
+    color: white;    
+}
+
+.panel-body {
+    border: 1px solid #0d3972;
+    color: #0d3972;
+}
+
+/*.btn-group {*/
+/*    background-color: #0d3972;*/
+/*    color: white;    */
+/*}*/
