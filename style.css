@@ -14,15 +14,37 @@
     color: #0d3972;
 }
 
-#thumbNail{
-    float: right;
-}
-
 #oneResult{
     padding: 15px;
 }
 
+#resultNumber{
+    float: left;
+    margin-right: 5px;
+    background-color: #0d3972;
+    color: white;
+    border-radius:5px;
+    border: white
+}
 
+#clear{
+    margin-left: 5px;
+    border-radius: 3px;
+    background-color: #eee;
+}
+
+#clear:hover{
+    background-color: #c9c9c9;
+}
+
+#search{
+    border-radius: 3px;
+    background-color: #eee;
+}
+
+#search:hover{
+    background-color: #c9c9c9;
+}
 /*.btn-group {*/
 /*    background-color: #0d3972;*/
 /*    color: white;    */

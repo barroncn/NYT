@@ -30,12 +30,12 @@ $(document).ready(function() {
     }).done(function(result) {
       
       for(var j = 0; j < recordsToGet; j++){
-          $("#theResults").append("<h3 id='resultHead'>" + result.response.docs[j].headline.main + "</h3>" +
+          $("#theResults").append("<button id='resultNumber'>" + (j+1) + "</button><h3 id='resultHead'>" + result.response.docs[j].headline.main + "</h3>" +
                                   "<p id='snippet'>" + result.response.docs[j].snippet + "</p>" +
                                   "<a href='" + result.response.docs[j].web_url + "' target='_blank'><p id='theLink'>" + result.response.docs[j].web_url + "</p></a></div><hr>");
       }
     });
-  }//Closes getResults
+  }//Closes getResults()
   
 //MAIN PROCESS
 //===========================================================================================================================================================
@@ -51,8 +51,3 @@ $(document).ready(function() {
   });
   
 });//Closes document.ready
-
-//Add to get a thumbnail: (but older searches don't have a thumbnail so they return errors...)
-//"<div id='oneResult'><p id='thumbNail'><img src='https://www.nyt.com/" + result.response.docs[i].multimedia[0].url + "' alt='thumbnail' /></p>" +
-                                 
-
