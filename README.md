@@ -6,4 +6,5 @@ This app is my first use of Web APIs and using AJAX to request JSON data! The us
 
 
 Technologies Used:
+
 JavaScript | jQuery | Bootstrap | AJAX | WebAPI 
