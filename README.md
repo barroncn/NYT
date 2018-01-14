@@ -1,4 +1,4 @@
-NYT API Search
+# NYT API Search
 
 [Check it out here!](https://barroncn.github.io/NYT/)
 
